@@ -25,3 +25,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+.main-title {
+    color: #0306b0;
+    font-size: 77px;
+}
+
+.subtitle { color: #0306b0; }
