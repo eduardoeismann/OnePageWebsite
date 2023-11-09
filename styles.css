@@ -1,3 +1,21 @@
+body {
+    background-image: url('./images/mountains.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+    text-align: center;
+    margin-top: 5%;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+h2 {
+    color: #00ff00;
+}
+
 h3 {
     color: #0000ff;
 }
