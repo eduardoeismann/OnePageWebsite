@@ -6,14 +6,14 @@ html {
     background-color: #00008b;
     color: white;
     width: 100%;
-    height: 100px;
+    height: 15%;
 }
 
 .kokoku-2 {
     background-color: #00008b;
     color: white;
-    width: 200px;
-    height: 500px;
+    width: 15%;
+    height: 100%;
     float: right;
 }
 
@@ -21,7 +21,7 @@ html {
     background-color: #008b8b;
     color: white;
     width: 100%;
-    height: 100px;
+    height: 15%;
     float: left;
     margin-top: 3%;
 }
@@ -38,16 +38,16 @@ html {
 }
 
 .main-menu {
-    margin-top: 70px;
+    margin-top: 6%;
 }
 
 .main-title {
     background-color: lightskyblue;
     color: white;
-    width: 600px;
-    height: 150px;
-    margin-left: 200px;
-    margin-top: 30px;
+    width: 69%;
+    height: 23%;
+    margin-left: 14%;
+    margin-top: 2%;
 }
 
 .vertical-text-align-20 {
@@ -66,8 +66,8 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 300px;
-    height: 200px;
+    width: 28%;
+    height: 28%;
     float: left;
     margin-left: 2%;
     margin-right: 2%;
