@@ -2,7 +2,6 @@ html {
     background-color: bisque;
 }
 
-
 .kokoku-1 { /* Ajustar para ir para topo da pagina */
     background-color: #00008b;
     color: white;
@@ -20,19 +19,21 @@ html {
 .kokoku-3 {
     background-color: #008b8b;
     color: white;
-    width: 300px;
+    width: 100%;
     height: 100px;
+    float: left;
+    margin-top: 3%;
 }
 
 .main-page {
-    background-color: darkgreen;
+    background-color: pink;
     width: 100%;
     height: 100%;
 }
 
 .main-menu-align {
     margin: auto;
-    width: 100%;
+    width: 75%;
 }
 
 .main-menu {
@@ -54,6 +55,8 @@ html {
     width: 300px;
     height: 200px;
     float: left;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .tips {
@@ -62,6 +65,8 @@ html {
     width: 300px;
     height: 200px;
     float: left;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .depositions {
@@ -70,18 +75,29 @@ html {
     width: 300px;
     height: 200px;
     float: left;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .about-me {
     background-color: #12a1a3;
     color: white;
-    width: 700px;
-    height: 200px;
+    width: 800px;
+    /* height: 100%; */
+    font-size: 20px;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
 }
 
 .news {
-    background-color: #ffa1a3;
+    background-color: yellow;
     color: black;
-    width: 700px;
-    height: 200px;
+    width: 800px;
+    height: 500px;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
 }
