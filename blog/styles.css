@@ -1,0 +1,87 @@
+html {
+    background-color: bisque;
+}
+
+
+.kokoku-1 { /* Ajustar para ir para topo da pagina */
+    background-color: #00008b;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.kokoku-2 {
+    background-color: #00008b;
+    color: white;
+    width: 300px;
+    height: 100px;
+}
+
+.kokoku-3 {
+    background-color: #008b8b;
+    color: white;
+    width: 300px;
+    height: 100px;
+}
+
+.main-page {
+    background-color: darkgreen;
+    width: 100%;
+    height: 100%;
+}
+
+.main-menu-align {
+    margin: auto;
+    width: 100%;
+}
+
+.main-menu {
+    margin-top: 70px;
+}
+
+.main-title {
+    background-color: lightskyblue;
+    color: white;
+    width: 600px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.recipes {
+    background-color: #ff2277;
+    color: white;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.tips {
+    background-color: #612300;
+    color: white;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.depositions {
+    background-color: #128123;
+    color: white;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.about-me {
+    background-color: #12a1a3;
+    color: white;
+    width: 700px;
+    height: 200px;
+}
+
+.news {
+    background-color: #ffa1a3;
+    color: black;
+    width: 700px;
+    height: 200px;
+}
