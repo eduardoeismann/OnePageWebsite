@@ -50,34 +50,43 @@ html {
     margin-top: 30px;
 }
 
-.recipes {
-    background-color: #ff2277;
+.vertical-text-align-20 {
+    margin-top: 20%;
     color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.vertical-text-align-25 {
+    margin-top: 25%;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.format-main-menu {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 300px;
     height: 200px;
     float: left;
     margin-left: 2%;
     margin-right: 2%;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipes {
+    background-image: url("images/recipe-01.png");
 }
 
 .tips {
-    background-color: #612300;
-    color: white;
-    width: 300px;
-    height: 200px;
-    float: left;
-    margin-left: 2%;
-    margin-right: 2%;
+    background-image: url("images/tips-01.png");
 }
 
 .depositions {
-    background-color: #128123;
-    color: white;
-    width: 300px;
-    height: 200px;
-    float: left;
-    margin-left: 2%;
-    margin-right: 2%;
+    background-image: url("images/depositions-02.png");
 }
 
 .about-me {
@@ -116,4 +125,5 @@ footer {
     width: 100%;
     height: 100px;
     background-color: #ff2277;
+    margin-top: 2%;
 }
