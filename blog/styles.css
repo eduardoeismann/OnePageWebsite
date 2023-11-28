@@ -1,45 +1,14 @@
-html {
-    background-color: bisque;
-}
+html { background-color: bisque; }
 
-.kokoku-1 { /* Ajustar para ir para topo da pagina */
-    background-color: #00008b;
-    color: white;
-    width: 100%;
-    height: 15%;
-}
+/* Ajustar para ir para topo da pagina */
+.kokoku-1 { width: 100%; height: 15%; }
+.kokoku-2 { width: 15%; height: 100%; margin-left: 80%; margin-right: 20%; }
+.kokoku-3 { width: 100%; height: 15%; float: left; margin-top: 3%; }
 
-.kokoku-2 {
-    background-color: #00008b;
-    color: white;
-    width: 15%;
-    height: 100%;
-    float: right;
-}
+.main-page { background-color: pink; width: 100%; height: 100%; }
 
-.kokoku-3 {
-    background-color: #008b8b;
-    color: white;
-    width: 100%;
-    height: 15%;
-    float: left;
-    margin-top: 3%;
-}
-
-.main-page {
-    background-color: pink;
-    width: 100%;
-    height: 100%;
-}
-
-.main-menu-align {
-    margin: auto;
-    width: 75%;
-}
-
-.main-menu {
-    margin-top: 6%;
-}
+.main-menu-align { margin: auto; width: 75%; }
+.main-menu { margin-top: 6%; }
 
 .main-title {
     background-color: lightskyblue;
@@ -50,17 +19,9 @@ html {
     margin-top: 2%;
 }
 
-.vertical-text-align-20 {
-    margin-top: 20%;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.vertical-text-align-25 {
-    margin-top: 25%;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
+.vertical-text-align-20 { margin-top: 20%; }
+.vertical-text-align-25 { margin-top: 25%; }
+.vertical-text-align-styles { color: white; text-shadow: black 0.1em 0.1em 0.2em; }
 
 .format-main-menu {
     background-repeat: no-repeat;
@@ -77,27 +38,18 @@ html {
     text-align: center;
 }
 
-.recipes {
-    background-image: url("images/recipe-01.png");
-}
-
-.tips {
-    background-image: url("images/tips-01.png");
-}
-
-.depositions {
-    background-image: url("images/depositions-02.png");
-}
+.recipes { background-image: url("images/recipe-01.png"); }
+.tips { background-image: url("images/tips-01.png"); }
+.depositions { background-image: url("images/depositions-02.png"); }
 
 .about-me {
     background-color: #12a1a3;
     color: white;
-    width: 800px;
-    /* height: 100%; */
+    width: 69%;
     font-size: 20px;
     float: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 14%;
+    margin-right: 14%;
     margin-top: 3%;
 }
 
@@ -105,9 +57,8 @@ html {
     background-color: yellow;
     color: black;
     width: 100%;
-    height: 500px;
+    height: 100%;
     float: left;
-    /* margin-left: 20%; */
     margin-right: 20%;
     margin-top: 3%;
 }
@@ -115,9 +66,12 @@ html {
 .description {
     background-color: #12a1a3;
     color: white;
-    width: 500px;
+    height: 100%;
+    width: 60%;
     font-size: 20px;
     float: left;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 
 footer {
@@ -127,3 +81,5 @@ footer {
     background-color: #ff2277;
     margin-top: 2%;
 }
+
+.asign-borders { border-width: 2px; border-style: solid; border-color:  #000000; }
