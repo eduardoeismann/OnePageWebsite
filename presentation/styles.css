@@ -18,9 +18,10 @@ canvas {
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 7;
 }
 
-span {
+.paragraph {
     width: 50px;
     height: 5px;
     display: inline-block;
@@ -50,6 +51,7 @@ span {
     z-index: 7;
 }
 .container-3 {
+    position: absolute;
     z-index: 9;
 }
 
