@@ -46,6 +46,13 @@ span {
     margin-right: auto;
 }
 
+.effects {
+    z-index: 7;
+}
+.container-3 {
+    z-index: 9;
+}
+
 .subtitle {
     margin-bottom: 0%;
 }
