@@ -1,34 +1,35 @@
-body {
-    background-image: url('./images/mountains.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+/* ---- reset ---- */
 
+body {
+    margin: 0;
+    background-color: #070825;
     text-align: center;
-    margin-top: 5%;
+    color: #ffffff;
 }
 
-h1 { color: #ff0000; }
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
 
-h2 { color: #00ff00; }
+/* ---- particles.js container ---- */
 
-h3 { color: #0000ff; }
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
-footer {
-    margin-top: 30%;
-    background-color: #a1a1a1;
+/* -- -- -- -- -- -- -- -- -- -- */
+
+.main-title {
+    color: #ffffff;
+    font-size: 77px;
 }
 
 .container-1 {
     width: 400px;
-    background-color: orange;
+    /* background-color: orange; */
     margin-left: auto;
     margin-right: auto;
 }
-
-.main-title {
-    color: #0306b0;
-    font-size: 77px;
-}
-
-.subtitle { color: #0306b0; }
