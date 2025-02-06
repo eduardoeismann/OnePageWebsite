@@ -41,8 +41,8 @@ canvas {
 }
 
 .container-2 {
-    width: 48px;
-    height: 48px;
+    /* width: 48px;
+    height: 48px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,7 +67,5 @@ canvas {
 }
 
 .container-4 {
-    height: 50px;
-    width: 50px;
-    background-color: orange;
+    padding: 1%;
 }
