@@ -1,1 +1,423 @@
-Iniciando construção aqui. HTML.
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#081F5C" />
+  <title>Eduardo Eismann — Desenvolvedor Backend</title>
+
+  <!-- Next, call CSS here -->
+</head>
+
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="wrap">
+      <div class="inner">
+        <a class="brand" href="#topo" aria-label="Ir para o topo">
+          <!-- Foto no topo (Drive thumbnail + fallback) -->
+          <img
+            class="avatar"
+            src="https://drive.google.com/thumbnail?id=1ISwJdtKbXjj2fEj1ggxEfy9IKKdN-FRk&sz=w2000"
+            alt="Foto de perfil de Eduardo Eismann"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+            onerror="this.onerror=null; this.replaceWith(createAvatarFallback('EE', 'avatar'));"
+          />
+          <div class="txt">
+            <strong>Eduardo Eismann S.</strong>
+            <span>Desenvolvedor Backend • Java • Node • TypeScript</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegação principal">
+          <a class="navlink" href="#sobre">Sobre</a>
+          <a class="navlink" href="#competencias">Competências</a>
+          <a class="navlink" href="#experiencia">Experiência</a>
+          <a class="navlink" href="#destaques">Destaques</a>
+          <a class="navlink" href="#formacao">Formação</a>
+          <a class="navlink" href="#contato">Contato</a>
+        </nav>
+
+        <button class="menu-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">
+          Menu
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav" aria-label="Navegação mobile">
+        <a href="#sobre">Sobre</a>
+        <a href="#competencias">Competências</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="topo" class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="card">
+          <h1>Backend robusto, integrações confiáveis e sistemas escaláveis.</h1>
+          <p class="subtitle">
+            Desenvolvedor Backend com experiência desde 2011, atuando em criação, integração e manutenção de sistemas
+            escaláveis com Java, Node e bancos SQL e NoSQL.
+          </p>
+
+          <div class="chips" aria-label="Destaques rápidos">
+            <div class="chip">APIs REST</div>
+            <div class="chip">SQL & NoSQL</div>
+            <div class="chip">Java • Node • TypeScript</div>
+            <div class="chip">Git</div>
+            <div class="chip">Ágil</div>
+          </div>
+
+          <div class="cta">
+            <a class="btn primary" href="#experiencia">Ver experiência</a>
+            <a class="btn" href="#destaques">Destaques</a>
+            <a class="btn" href="#contato">Contato</a>
+          </div>
+
+          <div class="divider"></div>
+
+          <p class="tight muted">
+            Entre 2023 e 2025, liderei iniciativas empreendedoras, fortalecendo visão estratégica, liderança e adaptabilidade
+            — competências que aplico diretamente na engenharia e na entrega.
+          </p>
+        </div>
+
+        <aside class="aside" aria-label="Painel lateral">
+          <div class="mini profile-card">
+            <!-- Foto no hero (Drive thumbnail + fallback) -->
+            <img
+              class="avatar-lg"
+              src="https://drive.google.com/thumbnail?id=1ISwJdtKbXjj2fEj1ggxEfy9IKKdN-FRk&sz=w2000"
+              alt="Foto de perfil de Eduardo Eismann"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              onerror="this.onerror=null; this.replaceWith(createAvatarFallback('EE', 'avatar-lg'));"
+            />
+            <div class="who">
+              <strong>Eduardo Eismann S.</strong>
+              <span>Porto Alegre, RS • Brasil</span>
+            </div>
+          </div>
+
+          <div class="mini">
+            <h3>Stack principal</h3>
+            <p>Java • Node • TypeScript<br />APIs REST • SQL/NoSQL • Git</p>
+          </div>
+
+          <div class="mini">
+            <h3>Perfil</h3>
+            <p>Comunicativo • Liderança • Comprometido</p>
+          </div>
+
+          <div class="mini">
+            <h3>Objetivo</h3>
+            <p>
+              Contribuir com a experiência adquirida ao longo de 14 anos em Tecnologia da Informação, atuando no desenvolvimento backend e na gestão de dados SQL e NoSQL, entregando soluções robustas, escaláveis e alinhadas às necessidades do negócio.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sobre -->
+  <section id="sobre">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Sobre</h2>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Resumo</h3>
+          <p class="tight muted">
+            Desenvolvedor Backend com experiência desde 2011 em Java, Node e bancos de dados relacionais e não relacionais, atuando na criação, integração e manutenção de sistemas escaláveis. Vivência empreendedora recente fortaleceu minha visão estratégica, liderança e adaptabilidade. Busco contribuir tecnicamente para o crescimento de uma empresa alinhada a valores de transparência e evolução contínua.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Como eu agrego</h3>
+          <ul style="margin:0; padding-left:18px; color:var(--ink-2); line-height:1.7; font-size:var(--p); max-width:75ch;">
+            <li>Implementação e manutenção de APIs REST com foco em estabilidade.</li>
+            <li>Liderança técnica e trabalho em times ágeis.</li>
+            <li>Atuação com bancos SQL/NoSQL e práticas de versionamento (Git).</li>
+            <li>Integrações e evolução de sistemas.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Competências -->
+  <section id="competencias">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Competências</h2>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Hard Skills</h3>
+          <div class="skills">
+            <div class="skill">Java <small>Backend</small></div>
+            <div class="skill">Node.js <small>Serviços</small></div>
+            <div class="skill">TypeScript <small>Services</small></div>
+            <div class="skill">APIs REST <small>Desenvolvimento</small></div>
+            <div class="skill">SQL & NoSQL <small>Operação</small></div>
+            <div class="skill">Git <small>Versionamento</small></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Soft Skills</h3>
+          <div class="skills">
+            <div class="skill">Comunicação <small>Clareza</small></div>
+            <div class="skill">Liderança <small>Coordenação</small></div>
+            <div class="skill">Comprometimento <small>Entrega</small></div>
+            <div class="skill">Adaptabilidade <small>Contextos</small></div>
+            <div class="skill">Visão Estratégica <small>Empreender</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiência -->
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Experiência</h2>
+      </div>
+
+      <div class="card">
+        <div class="exp-list">
+
+          <details class="exp" open> <!-- open> -->
+            <summary>
+              <div class="sum-title">
+                <strong>Desenvolvedor Web — Iceberg Lab (Empresa própria)</strong>
+                <span>Aplicações Web (TypeScript), serviços REST e NoSQL.</span>
+              </div>
+              <div class="sum-meta">11/2025 — Presente</div>
+            </summary>
+            <div class="exp-body">
+              <ul>
+                <li>Desenvolvimento de aplicações Web com foco em entrega e manutenção.</li>
+                <li>Gerenciamento de banco NoSQL e manutenção de serviços REST.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="exp">
+            <summary>
+              <div class="sum-title">
+                <strong>Desenvolvedor Java — Maven</strong>
+                <span>Java + JSF; manutenção PostgreSQL e MySQL.</span>
+              </div>
+              <div class="sum-meta">04/2025 — 06/2025</div>
+            </summary>
+            <div class="exp-body">
+              <ul>
+                <li>Desenvolvimento em Java e JSF.</li>
+                <li>Manutenção e rotinas em PostgreSQL e MySQL.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="exp">
+            <summary>
+              <div class="sum-title">
+                <strong>Desenvolvedor Backend Sênior — Paipe | Tecnologia e Inovação</strong>
+                <span>Liderança de backend; Java/Node/TypeScript; APIs REST; SQL/NoSQL; Git; ágil.</span>
+              </div>
+              <div class="sum-meta">09/2021 — 05/2023</div>
+            </summary>
+            <div class="exp-body">
+              <ul>
+                <li>Liderança de equipe de backend e direcionamento técnico.</li>
+                <li>Desenvolvimento e manutenção de APIs REST.</li>
+                <li>Atuação com SQL e NoSQL; versionamento com Git; rotina ágil.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="exp">
+            <summary>
+              <div class="sum-title">
+                <strong>Desenvolvedor Full Stack Pleno — CodeSociety</strong>
+                <span>Projeto iGen (AFIP): AngularJS/TypeScript/JSF; SQL Server e PostgreSQL; ágil.</span>
+              </div>
+              <div class="sum-meta">01/2018 — 09/2021</div>
+            </summary>
+            <div class="exp-body">
+              <ul>
+                <li>Desenvolvimento/manutenção em AngularJS, TypeScript e JSF.</li>
+                <li>Manutenção em SQL Server e PostgreSQL; versionamento com Git.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="exp">
+            <summary>
+              <div class="sum-title">
+                <strong>Desenvolvedor Java Pleno — Unimed Vale do Caí</strong>
+                <span>ERP em Java; PostgreSQL; administração de servidores e suporte a usuários.</span>
+              </div>
+              <div class="sum-meta">01/2013 — 12/2015</div>
+            </summary>
+            <div class="exp-body">
+              <ul>
+                <li>Desenvolvimento/manutenção de ERP em Java (frameworks próprios).</li>
+                <li>Manutenção PostgreSQL e administração de servidores; atendimento a usuários.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="exp">
+            <summary>
+              <div class="sum-title">
+                <strong>Responsável Técnico de CPD — Prefeitura de Portão (RS)</strong>
+                <span>Servidores OpenSUSI; manutenção; PHP e suporte a usuários.</span>
+              </div>
+              <div class="sum-meta">02/2011 — 01/2013</div>
+            </summary>
+            <div class="exp-body">
+              <ul>
+                <li>Manutenção de hardware e servidores OpenSUSI.</li>
+                <li>Desenvolvimento em PHP e atendimento a usuários.</li>
+              </ul>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destaques -->
+  <section id="destaques">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Destaques</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <h3 style="margin:0; font-size:16px; color:var(--ink-1);">Dashboard em R (COVID-19)</h3>
+          <p class="tagline">
+            Dashboard interativo em R para apoiar profissionais de saúde com análise/visualização de dados.
+          </p>
+          <div class="stack">
+            <span class="pill">R</span>
+            <span class="pill">Dashboard</span>
+            <span class="pill">Data Mining</span>
+          </div>
+          <a href="https://github.com/eduardoeismann/CoronaViewer" target="_blank" rel="noopener">GitHub</a>
+        </article>
+
+        <article class="project">
+          <h3 style="margin:0; font-size:16px; color:var(--ink-1);">Iceberg Lab</h3>
+          <p class="tagline">
+            Consultoria e desenvolvimento: Web, REST e NoSQL com foco em manutenção e entrega.
+          </p>
+          <div class="stack">
+            <span class="pill">TypeScript</span>
+            <span class="pill">REST</span>
+            <span class="pill">NoSQL</span>
+          </div>
+          <a href="#experiencia">Ver experiência</a>
+        </article>
+
+        <article class="project">
+          <h3 style="margin:0; font-size:16px; color:var(--ink-1);">iGen (AFIP)</h3>
+          <p class="tagline">
+            Sistema para compatibilidade genética em transplantes: manutenção e evolução do produto.
+          </p>
+          <div class="stack">
+            <span class="pill">TypeScript</span>
+            <span class="pill">JSF</span>
+            <span class="pill">SQL Server</span>
+          </div>
+          <a href="#experiencia">Detalhes</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formação -->
+  <section id="formacao">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Formação</h2>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Bacharel em Ciência da Computação</h3>
+          <p class="tight muted">Universidade Feevale<br /><span class="mono">01/2012 — 01/2021</span></p>
+        </div>
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Técnico em Informática</h3>
+          <p class="tight muted">Colégio Luterano Arthur Konrath<br /><span class="mono">01/2009 — 12/2011</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <footer id="contato">
+    <div class="wrap">
+      <div class="contact">
+        <div class="card">
+          <h2 style="margin:0; font-size:var(--h2); letter-spacing:-.25px;">Contato</h2>
+          <p class="tight muted" style="margin-top:10px;">
+            Para oportunidades em backend (Java/Node/TypeScript), APIs REST, Bancos de Dados e integração de sistemas, estou disponível.
+          </p>
+          <div class="divider"></div>
+          <p class="tight muted" style="font-size:13px;">
+            Porto Alegre, RS • Brasil
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-size:var(--h3); color:var(--ink-1);">Links</h3>
+          <div class="links">
+
+            <div class="linkrow">
+              <span>eduardo.eismann@gmail.com</span>
+              <a href="mailto:eduardo.eismann@gmail.com">E-mail</a>
+            </div>
+            
+            <div class="linkrow">
+              <span>github.com/eduardoeismann</span>
+              <a href="https://github.com/eduardoeismann" target="_blank" rel="noopener">GitHub</a>
+            </div>
+            
+            <div class="linkrow">
+              <span>@EduardoEismann</span>
+              <a href="https://www.instagram.com/eduardoeismann/" target="_blank" rel="noopener">Instagram</a>
+            </div>
+
+            <div class="linkrow">
+              <span>Voltar ao topo</span>
+              <a href="#topo">Topo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="muted" style="margin:18px 0 0; text-align:center; font-size:12.5px;">
+        © <span id="year"></span> Eduardo Eismann Souza
+      </p>
+    </div>
+  </footer>
+
+  <!-- Next, call JS here -->
+</body>
+</html>
